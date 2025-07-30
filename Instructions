@@ -1,4 +1,9 @@
+This is a trial CTF designed to challenge Tier 1 analytics. The data provided in the logfile is fictional. 
+
+Create a report based on the findings in the logfile along side a walkthrough on how you first of gained access to the logfile and what you've discovered in the logfile. 
+
 1. Important - Download ctf.png.gz as a "RAW" file
 Hint - An image says more than a thousand words
+
 2. Download the log file and analyze it. 
-There are 3 things that are of interest. 
+There are at least 3 things that are of interest. 
